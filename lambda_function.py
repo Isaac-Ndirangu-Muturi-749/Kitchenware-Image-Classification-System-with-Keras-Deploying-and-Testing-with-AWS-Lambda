@@ -69,4 +69,4 @@ def predict(url):
 def lambda_handler(event, context):
     url = event['url']
     result = predict(url)
-    return result
+    print(result)
