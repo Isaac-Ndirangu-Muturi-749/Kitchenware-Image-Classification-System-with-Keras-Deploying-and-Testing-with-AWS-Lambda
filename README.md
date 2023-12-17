@@ -78,8 +78,8 @@ python train.py
      docker build -t kitchenware-classification-model .
      docker run -it --rm -p 9000:8080 kitchenware-classification-model:latest
      ```
-   **lambda_invoke_url** = 'http://localhost:9000/2015-03-31/functions/function/invocations'
-   **Run the Web Service:**
+   lambda_invoke_url = 'http://localhost:9000/2015-03-31/functions/function/invocations'  
+   Run the Web Service:  
    ```bash
    python predict.py
    ```
@@ -105,8 +105,8 @@ The provided Python script (`predict.py`) demonstrates how to invoke a Lambda fu
 
 Follow me on Twitter 🐦, connect with me on LinkedIn 🔗, and check out my GitHub 🐙. You won't be disappointed!
 
-👉 Twitter: https://twitter.com/NdiranguMuturi1
-👉 LinkedIn: https://www.linkedin.com/in/isaac-muturi-3b6b2b237
-👉 GitHub: https://github.com/Isaac-Ndirangu-Muturi-749
+👉 Twitter: https://twitter.com/NdiranguMuturi1  
+👉 LinkedIn: https://www.linkedin.com/in/isaac-muturi-3b6b2b237  
+👉 GitHub: https://github.com/Isaac-Ndirangu-Muturi-749  
 
 So, what are you waiting for? Join me on my tech journey and learn something new today! 🚀🌟
