@@ -78,8 +78,8 @@ python train.py
      docker build -t kitchenware-classification-model .
      docker run -it --rm -p 9000:8080 kitchenware-classification-model:latest
      ```
-   lambda_invoke_url = 'http://localhost:9000/2015-03-31/functions/function/invocations'  
-   Run the Web Service:  
+   - lambda_invoke_url = 'http://localhost:9000/2015-03-31/functions/function/invocations'  
+   - Run the Web Service:  
    ```bash
    python predict.py
    ```
