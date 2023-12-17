@@ -4,44 +4,43 @@
 
 ## Description of the Problem
 
-In this project, we aim to develop an image classification system that can identify various kitchenware items such as cups, forks, glasses, knives, plates, and spoons. The goal is to create a model that can assist in automating the categorization of kitchenware items from images.
+This project focuses on developing an image classification system capable of identifying various kitchenware items, including cups, forks, glasses, knives, plates, and spoons. The primary objective is to create a model that can automate the categorization of kitchenware items based on images.
 
 ## How a Model Could Be Used
 
-The trained model can be used in applications where automatic classification of kitchenware items is needed. This could include inventory management systems, smart kitchen appliances, or any scenario where the identification of kitchenware items from images is required.
+The trained model finds application in scenarios where automatic classification of kitchenware items is essential. This includes inventory management systems, smart kitchen appliances, or any situation requiring the identification of kitchenware items from images.
 
 ### Competition Overview
 
-The competition, which had already concluded, provided a structured framework for evaluating the performance of image classification models. It featured a diverse dataset collected using Toloka, with additional contributions shared by participants. The evaluation metric used was classification accuracy.
+The competition, which has concluded, provided a structured framework for evaluating image classification models. The dataset, collected using Toloka with additional participant contributions, employed classification accuracy as the evaluation metric.
 
 ### Personal Goals
 
-My objectives for the project included honing my machine learning skills, gaining practical experience in image classification, and exploring the challenges associated with making machine learning models production-ready.
+My project objectives included refining machine learning skills, gaining practical experience in image classification, and addressing challenges associated with making machine learning models production-ready.
 
 ### Methodology
 
-I followed a systematic approach, including data preprocessing, model development using Keras, and fine-tuning to achieve optimal performance. I also explored additional kitchenware images contributed by participants, augmenting the main competition dataset to enhance model training.
+A systematic approach was adopted, covering data preprocessing, model development using Keras, and fine-tuning for optimal performance. Additional kitchenware images contributed by participants were explored, augmenting the main competition dataset for improved model training.
 
 ### Results and Achievements
 
-While the competition has concluded, my focus extended beyond achieving a high classification accuracy. I aimed to create a production-ready solution, considering factors such as model interpretability, scalability, and deployment ease.
+While achieving high classification accuracy was a goal, the focus extended to creating a production-ready solution, considering factors like model interpretability, scalability, and deployment ease.
 
 ### Learnings and Challenges
 
-Throughout the project, I encountered and addressed various challenges, refining my understanding of image classification, model optimization, and the transition from a prototype to a production-ready solution. The experience provided valuable insights into real-world machine learning applications.
+Throughout the project, various challenges were encountered and addressed, enhancing understanding of image classification, model optimization, and transitioning from a prototype to a production-ready solution. The experience provided valuable insights into real-world machine learning applications.
 
 # Project Structure
 
-- **notebook.ipynb**: A Jupyter Notebook containing detailed steps of the project, including data preparation, exploratory data analysis (EDA), feature importance analysis, model selection, and parameter tuning.
+- **notebook.ipynb**: A Jupyter Notebook detailing project steps, including data preparation, exploratory data analysis (EDA), feature importance analysis, model selection, and parameter tuning.
 
-- **train.py**: A script responsible for training the final model, saving it to a file
+- **train.py**: A script for training the final model and saving it to a file.
 
-- **predict.py**: A script to load the trained model, serve it via a web service (using AWS Lambda - serverless), and make predictions.
+- **predict.py**: A script for loading the trained model, serving it via a web service (using AWS Lambda - serverless), and making predictions.
 
-- **dependencies.txt**: A file listing the dependencies for the project, including library versions.
+- **dependencies.txt**: A file listing project dependencies, including library versions.
 
 - **Dockerfile**: Enables running the service in a Docker container, providing instructions for setting up the environment.
-
 
 # Running the Project
 
@@ -103,7 +102,9 @@ The provided Python script (`predict.py`) demonstrates how to invoke a Lambda fu
    python predict.py
    ```
 
-Follow me on Twitter 🐦, connect with me on LinkedIn 🔗, and check out my GitHub 🐙. You won't be disappointed!
+Follow me on Twitter
+
+ 🐦, connect with me on LinkedIn 🔗, and check out my GitHub 🐙. You won't be disappointed!
 
 👉 Twitter: https://twitter.com/NdiranguMuturi1  
 👉 LinkedIn: https://www.linkedin.com/in/isaac-muturi-3b6b2b237  
